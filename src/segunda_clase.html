@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/practice_one.css">
+    <title>Grid</title>
+</head>
+<body class="container mx-auto mt-5 text-center">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-4 ">
+        <div class="bg-red-400 ">Columna:A</div>
+        <div class="bg-red-500 ">Columna:B</div>
+        <div class="bg-red-600 ">Columna:C</div>
+        <div class="bg-red-700 ">Columna:D</div>
+        <div class="bg-red-800 ">Columna:E</div>
+        <div class="bg-red-800 ">Columna:F</div>
+    </div>
+    
+    <style>/*Utilizando propiedades */</style>
+    <div class="grid grid-cols-1 grid-rows-6 sm:grid-cols-4 sm:grid-rows-2 gap-4 my-3">
+        <div class="bg-blue-400 ">Columna:G</div>
+        <div class="bg-blue-500 ">Columna:H</div>
+        <div class="bg-blue-600 ">Columna:I</div>
+        <div class="bg-blue-700 ">Columna:J</div>
+        <style>/*Col-span-# le dice cuantos espacios va a utilizar*/</style>
+        <div class="bg-blue-800 col-span-1 sm:col-span-2 
+        sm:row-span-2">Columna:K</div>
+        <div class="bg-blue-800 col-span-1 sm:col-span-2
+        sm:row-span-2">Columna:L</div>
+    </div> 
+
+    <div class="grid grid-cols-2 lg:grid-cols-3 gap-1">
+        <div class="bg-orange-500">A</div>
+        <div class="bg-orange-500">A</div>
+        <div class="bg-orange-500">A</div>
+        <div class="bg-orange-500">A</div>
+        <div class="bg-orange-500">A</div> 
+        <div class="bg-orange-500">A</div>
+        <div class="bg-orange-500">A</div>
+        <div class="bg-orange-500">A</div>
+        <div class="bg-orange-500 col-span-2 lg:col-span-1  text-white">Fila de columnas adaptables</div>
+        <div class="bg-orange-500  col-span-2 lg:col-span-3 font-bold text-white py-4 text-xl text-left "><span class="ml-3">Fila de columnas adaptables</span>
+        </div>
+
+        <style>/*uso del col-start-# */</style>
+        <div class="grid grid-cols-2 lg:grid-cols-3   gap-4 ">
+            <div class="bg-red-400 col-start-2  lg:col-start-3">Columna:A</div>
+            <div class="bg-red-500 ">Columna:B</div>
+            <div class="bg-red-600 ">Columna:C</div>
+        </div> 
+        
+        <style>/*uso del col-end-#*/</style>
+         <div class="grid grid-cols-2  lg:grid-cols-3  gap-4 ">
+            <div class="bg-red-400 col-start-2 lg:col-start-3">Columna:A</div>
+            <div class="bg-red-500 ">Columna:B</div>
+            <div class="bg-red-600 ">Columna:C</div>
+        </div>
+        <style>/*Trabajo con row*/</style>
+        <div class="grid grid-rows-4 gap-4">
+            <div class="bg-orange-400 row-span-2">B</div>
+            <div class="bg-orange-400">A</div>
+            <div class="bg-orange-400">A</div>
+            <div class="bg-orange-400">A</div>
+        </div>
+        <br>
+        
+    </div>
+    <style>/*Menus*/</style>
+        <nav class="container text-left mt-7 mx-auto">
+            
+
+            <span class="font-bold  px-2 py-1 bg-orange-200 text-2xl rounded-lg text-left ml-5 w-20 lg:ml-16 ">class: </span>
+            <div class="text-center container mt-5">
+                <span class=" bg-orange-200 hover:bg-orange-400 hover:text-white text-black font-bold py-2 px-4 rounded-full mr-3 ml-8 " ><a href="primera_clase.html"><</a></span>
+
+                <span class="  bg-orange-300 hover:bg-orange-500 hover:text-white text-black font-bold  py-2 px-4 rounded-full  mr-3 " ><a  href="practice_one.html">Class practice</a></span>
+                 
+                <span class=" bg-orange-200 hover:bg-orange-400 hover:text-white text-black font-bold py-2 px-4 rounded-full mr-3  " ><a href="tercera_clase.html">#3</a></span> 
+
+                <span class=" bg-orange-200 hover:bg-orange-400 hover:text-white text-black font-bold py-2 px-4 rounded-full  mr-4" ><a  href="cuarta_clase.html">#4</a></span>
+            </div>
+        
+            
+        </nav>
+        
+</body>
+</html>
