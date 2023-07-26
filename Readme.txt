@@ -1,12 +1,12 @@
 */inicia el programa editor*/
 
--->Primera clase:
+-->Compilador general:
 npx tailwindcss -i ./src/input.css -o ./Public/ouput.css --watch
 
--->Segunda clase:
-npx tailwindcss -i ./src/input.css -o ./dist/ouput2.css --watch
-:::Practica
-npx tailwindcss -i ./src/input.css -o ./dist/Practice_one.css --watch
+Documentacion oficial:
+https://tailwindcss.com/docs/installation
 
--->Tercera clase:
-npx tailwindcss -i ./src/input.css -o ./dist/ouput3.css --watch
+Documentacion Edit:
+https://bluuweb.github.io/tailwindcss/
+
+

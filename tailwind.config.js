@@ -5,6 +5,9 @@ module.exports = {
     extend: {
       colors:{
         negro: '#000',
+        tahiti:{
+          100: '#cffafe',
+        }
       }
     },
   },
