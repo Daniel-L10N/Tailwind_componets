@@ -1,7 +1,7 @@
 */inicia el programa editor*/
 
 -->Compilador general:
-npx tailwindcss -i ./src/input.css -o ./Public/ouput.css --watch
+npx tailwindcss -i ./src/input.css -o ./Public/output.css --watch
 
 Documentacion oficial:
 https://tailwindcss.com/docs/installation
