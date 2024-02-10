@@ -1,6 +1,6 @@
 # Tealwindcss_components
 
-Este repositorio tiene como objetivo proporcionar una colección de componentes en HTML estilizados con Tailwind CSS para facilitar el desarrollo de sitios web de manera más rápida, utilizando componentes previamente diseñados.
+<img src="https://github.com/Daniel-L10N/Personal_notes/blob/main/assets/icons/Lenguages%20of%20programing/tailwindCss.png" alt="Texto alternativo" style="width:350px;height:200px;"><br/><br/>
 
 ## Objetivo
 
@@ -23,4 +23,4 @@ Los componentes están organizados en diferentes categorías y se pueden integra
   <p class="text-gray-700">Contenido de la tarjeta...</p>
 </div>
 ```
-![Eslogan](https://github.com/Daniel-L10N/Personal_notes/blob/main/assets/Logo.jpeg)
+
