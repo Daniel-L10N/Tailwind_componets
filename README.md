@@ -1,6 +1,6 @@
 # Tealwindcss_components
 
-<img src="https://github.com/Daniel-L10N/Personal_notes/blob/main/assets/icons/Lenguages%20of%20programing/tailwindCss.png" alt="Texto alternativo" style="width:350px;height:200px;"><br/><br/>
+<img src="https://github.com/Daniel-L10N/Personal_notes/blob/main/assets/icons/Lenguages%20of%20programing/tailwindCss.png" alt="Texto alternativo" style="width:644;height:210;"><br/><br/>
 
 ## Objetivo
 
