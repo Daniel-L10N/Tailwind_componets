@@ -23,4 +23,4 @@ Los componentes están organizados en diferentes categorías y se pueden integra
   <p class="text-gray-700">Contenido de la tarjeta...</p>
 </div>
 ```
-![Eslogan](https://github.com/Daniel-L10N/Daniel-L10N/blob/main/assets/eslogan.jpeg)
+![Eslogan](https://github.com/Daniel-L10N/Personal_notes/blob/main/assets/Logo.jpeg)
