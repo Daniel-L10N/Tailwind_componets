@@ -3,7 +3,7 @@
 <img src="https://github.com/Daniel-L10N/Personal_notes/blob/main/assets/icons/Lenguages%20of%20programing/tailwindCss.png" alt="Texto alternativo" style="width:644;height:210;"><br/><br/>
 
 ## Start
-npx tailwindcss -i ./src/style/global.css -o ./src/style/estilos.css --watch
+npx tailwindcss -i ./src/style/input.css -o ./src/style/global.css --watch
 
 ## Aim 
 
