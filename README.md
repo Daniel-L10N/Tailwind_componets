@@ -2,25 +2,37 @@
 
 <img src="https://github.com/Daniel-L10N/Personal_notes/blob/main/assets/icons/Lenguages%20of%20programing/tailwindCss.png" alt="Texto alternativo" style="width:644;height:210;"><br/><br/>
 
-## Objetivo
+## Start
+npx tailwindcss -i ./src/style/global.css -o ./src/style/estilos.css --watch
 
-El objetivo principal de Tealwindcss_components es ofrecer una variedad de componentes listos para usar, lo que permite a los desarrolladores implementar rápidamente diferentes elementos de diseño en sus proyectos web. Esto ayuda a agilizar el proceso de desarrollo y a mantener una apariencia coherente en toda la aplicación.
+## Aim 
 
-## Uso
+The main goal of Tealwindcss_components is to offer a variety of ready-to-use components, allowing developers to quickly implement different design elements in their web projects. This helps streamline the development process and maintain a consistent look throughout the application.
 
-Los componentes están organizados en diferentes categorías y se pueden integrar fácilmente en proyectos web. Cada componente viene con su respectivo código HTML y clases de Tailwind CSS, lo que simplifica su implementación.
+## Use
 
-## Contribuciones
+The components are organized into different categories and can be easily integrated into web projects. Each component comes with its respective HTML code and Tailwind CSS classes, simplifying its implementation.
 
-¡Las contribuciones son bienvenidas! Siéntete libre de agregar nuevos componentes, mejorar los existentes o reportar problemas que encuentres.
+## Contributions
 
-## Ejemplo
+Contributions are welcome! Feel free to add new components, improve existing ones, or report any issues you may encounter.
+
+## Example
 
 ```html
 <!-- Ejemplo de uso del componente "card" -->
+<!-- Example of using the "card" component -->
 <div class="bg-white shadow-lg rounded-lg p-4">
-  <h2 class="text-xl font-bold mb-2">Título de la tarjeta</h2>
-  <p class="text-gray-700">Contenido de la tarjeta...</p>
+  <h2 class="text-xl font-bold mb-2">Card Title</h2>
+  <p class="text-gray-700">Card content...</p>
 </div>
 ```
+
+
+
+
+
+
+
+
 
