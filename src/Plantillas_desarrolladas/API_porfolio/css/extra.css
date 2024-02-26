@@ -1,0 +1,68 @@
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 400% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.logo-danit {
+    /* background-color: #11470e; */
+    cursor: pointer;
+    border: none;
+    padding: 1px 12px;
+    color: rgb(242, 255, 240);
+    font-weight: bold;
+    position: relative;
+    border-radius: 12px;
+}
+
+.logo-danit::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,
+            rgb(6, 115, 63), rgb(223, 224, 224)
+            /* red, blue, deeppink, blue, 
+        red, blue, deeppink, blue */
+        );
+    background-size: 800%;
+    /* border-radius: 10px; */
+    filter: blur(8px);
+    animation: glowing 20s linear infinite;
+}
+
+.title-logo {
+    display: block;
+    font-family: system-ui;
+    white-space: nowrap;
+    border-right: 3px solid;
+    width: 34ch;
+
+
+    animation: typing 4s steps(34),
+        blink .6s infinite step-end alternate;
+    overflow: hidden;
+}
